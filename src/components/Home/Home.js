@@ -6,7 +6,7 @@ function Home() {
     <div>
       <div className="banner-image"></div>
       <div>
-        <span className="tagline">JUST DOES IT</span>
+        <span className="tagline">JUST DO IT</span>
         <div className="tagline-para">
           Nike has been your compadsdvsdvnion in happiness, both big and small, for
           over 50 years. Our roots are firmly grounded in India and with its
@@ -18,7 +18,7 @@ function Home() {
         <br />
         <div className="latest-container">
           <hr className="line" /> &nbsp; &nbsp;
-          <span className="latest-designs">Latest Desigerwsns</span>&nbsp;&nbsp;
+          <span className="latest-designs">Latest Designes</span>&nbsp;&nbsp;
           <hr className="line" />
           <br />
           <br />
@@ -32,8 +32,8 @@ function Home() {
                     alt={shoe.name}
                     src={shoe.img}
                   />
-                  <h3 className="shoe-name">{shoe.name} jajhaja</h3>
-                  <h3 className="shoe-price">${shoe.price} sdhvcuwvyciwy</h3>
+                  <h3 className="shoe-name">{shoe.name} jordan</h3>
+                  <h3 className="shoe-price">${shoe.price} 3800</h3>
                 </div>
               );
             })}
